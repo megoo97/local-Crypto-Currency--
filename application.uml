@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>peer.application</OriginalElement>
+  <nodes>
+    <node x="497.50000000000006" y="0.0">java.lang.FunctionalInterface</node>
+    <node x="0.0" y="182.0">java.lang.Thread</node>
+    <node x="1031.0" y="0.0">User.Client</node>
+    <node x="664.0" y="1128.0">peer.Mclientthread</node>
+    <node x="223.50000000000006" y="2465.0">peer.Mserver</node>
+    <node x="512.0" y="80.0">java.lang.Runnable</node>
+    <node x="1544.0" y="0.0">peer.application</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.Thread" target="java.lang.Runnable">
+      <point x="0.0" y="-1116.5" />
+      <point x="322.0" y="157.0" />
+      <point x="542.75" y="157.0" />
+      <point x="-30.75" y="26.0" />
+    </edge>
+    <edge source="peer.Mclientthread" target="java.lang.Runnable">
+      <point x="0.0" y="-170.5" />
+      <point x="825.0" y="157.0" />
+      <point x="604.25" y="157.0" />
+      <point x="30.75" y="26.0" />
+    </edge>
+    <edge source="peer.Mserver" target="java.lang.Thread">
+      <point x="0.0" y="-126.0" />
+      <point x="0.0" y="1116.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="447.0" y="258.0" />
+  <SelectedNodes>
+    <node>peer.application</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

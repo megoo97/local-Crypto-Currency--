@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>CryptoCurrancy.Block</OriginalElement>
+  <nodes>
+    <node x="297.0" y="274.0">CryptoCurrancy.BlockChain</node>
+    <node x="0.0" y="0.0">CryptoCurrancy.Block</node>
+    <node x="0.0" y="438.0">CryptoCurrancy.MerkleTrees</node>
+    <node x="0.0" y="274.0">CryptoCurrancy.Transication</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="117.0" y="230.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
